@@ -3,7 +3,7 @@
     <h1 class="h3">{{ msg }}</h1>
     <div class="bottom-container">
     <a class="game" href="https://banditcatstudio.com/web-mobile/index.html"><img src=".././assets/gamepad.png"/></a>
-    <a class="wine" href="https://yulihzn.github.io/dist/index.html"><img src=".././assets/wine.png"/></a>
+    <a class="wine" href="https://banditcatstudio.com/web-mobile1/index.html"><img src=".././assets/circle.png"/></a>
     </div>
   </div>
 </template>
