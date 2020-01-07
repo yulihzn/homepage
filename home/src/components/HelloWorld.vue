@@ -2,8 +2,8 @@
   <div class="main-container">
     <h1 class="h3">{{ msg }}</h1>
     <div class="bottom-container">
-    <a class="game" :href="href1"><img src=".././assets/gamepad.png"/></a>
-    <a class="wine" :href="href2"><img src=".././assets/circle.png"/></a>
+    <!-- <a class="game" :href="href1"><img src=".././assets/gamepad.png"/></a> -->
+    <!-- <a class="wine" :href="href2"><img src=".././assets/circle.png"/></a> -->
     </div>
   </div>
 </template>
