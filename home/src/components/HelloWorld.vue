@@ -11,20 +11,18 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
     msg: String
   },
-  data () {
+  data() {
     return {
-      href1: '/web-mobile/index.html',
-      href2:'/web-mobile1/index.html'
+      href1: "/web-mobile/index.html",
+      href2: "/web-mobile1/index.html"
     };
   },
-  mounted () {
-
-  }
-}
+  mounted() {}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -46,24 +44,24 @@ li {
 a {
   color: #42b983;
 }
-.game{
+.game {
   display: inline;
   position: relative;
   margin: 32px;
 }
-.wine{
+.wine {
   display: inline;
   position: relative;
   margin: 32px;
 }
-.bottom-container{
+.bottom-container {
   position: fixed;
   display: flex;
   width: 100%;
   justify-content: center;
   bottom: 32px;
 }
-.main-container{
+.main-container {
   position: fixed;
   display: flex;
   top: 30%;
