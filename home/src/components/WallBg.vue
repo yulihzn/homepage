@@ -1,18 +1,15 @@
 <template>
   <div class="main-container">
       <div class="wall-bg-border"></div>
-    
     <div class="wall-bg-top">
       <div class="window-table">
       <div class="window-table-bg"></div>
-        
         <table class="window-table-frame" border="2">
         <tr><td></td><td></td><td></td></tr>
         <tr><td></td><td></td><td></td></tr>
         <tr><td></td><td></td><td></td></tr>
       </table>
       </div>
-      
     </div>
     <div class="wall-bg-border"></div>
     <div class="wall-bg-bottom"></div>
@@ -21,13 +18,13 @@
 
 <script>
 export default {
-  name: "WallBg",
+  name: 'WallBg',
   props: {},
-  data() {
-    return {};
+  data () {
+    return {}
   },
-  mounted() {}
-};
+  mounted () {}
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -65,7 +62,7 @@ export default {
   width: 300px;
   height: 300px;
   position: absolute;
-  background: rgb(55, 40, 122);
+  background: rgb(122, 179, 233);
 }
 .window-table-frame {
   width: 300px;

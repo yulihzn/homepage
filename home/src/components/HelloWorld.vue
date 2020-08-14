@@ -11,25 +11,25 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     msg: String
   },
-  data() {
+  data () {
     return {
-      href1: "/web-mobile/index.html",
-      href2: "/web-mobile1/index.html"
-    };
+      href1: '/web-mobile/index.html',
+      href2: '/web-mobile1/index.html'
+    }
   },
-  mounted() {}
-};
+  mounted () {}
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 h3 {
   position: relative;
-  top: 50%;
+  top: 60%;
   height: 100%;
   align-content: center;
 }
