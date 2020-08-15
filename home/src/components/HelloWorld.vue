@@ -4,6 +4,7 @@
     <div class="bottom-container">
     <!-- <a class="game" :href="href1"><img src=".././assets/gamepad.png"/></a> -->
     <!-- <a class="wine" :href="href2"><img src=".././assets/circle.png"/></a> -->
+
     <a href="http://www.beian.miit.gov.cn/" target="_blank" style="font-size:4px;color:gray">沪ICP备20000618号<br/></a>
     </div>
   </div>

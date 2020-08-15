@@ -1,6 +1,8 @@
 <template>
   <div class="main-container">
-    <img alt="Vue logo" :src='src' width="58" height="34" @click="pickUpCat()" >
+    <img alt="Vue logo" :src='src' width="96" height="96" @click="pickUpCat()" >
+      <router-link to="/about"><img src="@/assets/cat/plant.png" width="96" height="96" ></router-link>
+
   </div>
 </template>
 
@@ -12,7 +14,8 @@ export default {
   data () {
     return {
       src: '',
-      currentRes: 'assets/cat/cat_idle_000.png'
+      currentRes: 'assets/cat/cat_idle_000.png',
+      isAniming: false
     }
   },
   created () {
@@ -22,6 +25,20 @@ export default {
   methods: {
     pickUpCat () {
       console.log('picked me')
+      if (this.isAniming) {
+        return
+      }
+      let arr = [0, 1, 2, 3, 4, 5, 4, 3, 2, 1, 0]
+      let index = 0
+      this.isAniming = true
+      let interval = setInterval(() => {
+        if (index > arr.length - 1) {
+          clearInterval(interval)
+          this.isAniming = false
+          return
+        }
+        this.src = require('@/' + `assets/cat/cat_picked_00${arr[index++]}.png`)
+      }, 100)
     }
   }
 }
@@ -47,7 +64,8 @@ a {
 .main-container {
   position: fixed;
   display: flex;
-  top: 8%;
+  top: 55%;
+  left: 30%;
   height: 100%;
   width: 100%;
   justify-content: center;

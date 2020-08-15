@@ -4,7 +4,7 @@
     <div class="wall-bg-top">
       <div class="window-table">
       <div class="window-table-bg"></div>
-        <table class="window-table-frame" border="2">
+        <table class="window-table-frame" border="3">
         <tr><td></td><td></td><td></td></tr>
         <tr><td></td><td></td><td></td></tr>
         <tr><td></td><td></td><td></td></tr>
@@ -56,7 +56,7 @@ export default {
   position: relative;
   width: 300px;
   height: 300px;
-  border:white;
+  border:gainsboro;
 }
 .window-table-bg {
   width: 300px;
