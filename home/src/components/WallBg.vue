@@ -4,7 +4,7 @@
     <div class="wall-bg-top">
       <div class="window-table">
       <div class="window-table-bg"></div>
-        <table class="window-table-frame" border="3">
+        <table class="window-table-frame" border="2">
         <tr><td></td><td></td><td></td></tr>
         <tr><td></td><td></td><td></td></tr>
         <tr><td></td><td></td><td></td></tr>
@@ -35,9 +35,9 @@ export default {
   justify-content: center;
 }
 .wall-bg-bottom {
-  background: rgb(176, 253, 249);
+  background: rgb(212, 250, 248);
   width: 100%;
-  height: 150px;
+  height: 200px;
 }
 .wall-bg-border {
   width: 100%;
@@ -62,7 +62,7 @@ export default {
   width: 300px;
   height: 300px;
   position: absolute;
-  background: rgb(122, 179, 233);
+  background: rgb(215, 236, 255);
 }
 .window-table-frame {
   width: 300px;

@@ -1,8 +1,8 @@
 <template>
   <div class="main-container">
     <img alt="Vue logo" :src='src' width="96" height="96" @click="pickUpCat()" >
-      <router-link to="/about"><img src="@/assets/cat/plant.png" width="96" height="96" ></router-link>
-
+      <router-link to="/about"><img src="@/assets/cat/plant.png" ></router-link>
+      <a href="http://banditcatstudio.com/web-mobile"><img src="@/assets/avatarbed.png" ></a>
   </div>
 </template>
 
@@ -64,10 +64,11 @@ a {
 .main-container {
   position: fixed;
   display: flex;
-  top: 55%;
+  top: 80%;
   left: 30%;
   height: 100%;
   width: 100%;
   justify-content: center;
+  justify-items: center;
 }
 </style>
